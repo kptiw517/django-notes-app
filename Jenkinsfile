@@ -30,7 +30,7 @@ pipeline {
         
         stage("Deploying the app"){
             steps {
-                echo "deploying the app"
+                echo "deploying the App"
                 sh "docker-compose down && docker-compose up -d"
             }
             
